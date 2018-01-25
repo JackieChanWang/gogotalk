@@ -1,0 +1,8 @@
+傻子学git提交过程：
+1.git init 初始化git，以便生成一个.git文件
+2.git clone <线上地址，地址栏地址，不是什么.git的那个>
+3.git add <需要提交的文件名称>
+4.git status 查看状态
+5.git commit -m "修改什么内容，就在这里面写什么，相当于注释"
+6.git push origin master 提交到远程仓库
+这样就可以提交到github仓库里面了，记得刷新一下查看。
