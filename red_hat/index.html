@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Canvas Demo</title>
+    <!--[if IE]>
+    <script type="text/javascript" src="excanvas.js"></script>
+    <![endif]-->
+
+    <script>
+        if ("wView" in window) {
+            window.wView.allowsInlineMediaPlayback = "YES";
+            window.wView.mediaPlaybackRequiresUserAction = "NO";
+        }
+    </script>
+</head>
+
+<body style="height: 100%;width: 100%;margin: 0;padding: 0;">
+<div id="my_painter">
+    <canvas id="event_canvas" style=" height: 100%;width: 100%;margin: 0;padding: 0;display: block;"></canvas>
+</div>
+<SCRIPT language=javascript>
+    function stop() {
+        return false;
+    }
+    document.oncontextmenu = stop;
+
+
+</script>
+
+
+<SCRIPT language=javascript src="static/tg.js">
+</script>
+
+
+</body>
+
+
+</html>
