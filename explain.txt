@@ -5,6 +5,6 @@
 4.git status 查看状态
 5.git commit -m "修改什么内容，就在这里面写什么，相当于注释"
 6.git push origin master 提交到远程仓库
-这样就可以提交到github仓库里面了，记得刷新一下查看。
+这样就可以提交到github仓库里面了，记得刷新一下查看。。。
 
 完整版请查看：http://www.bootcss.com/p/git-guide/
